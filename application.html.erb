@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mymath</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <header>
+  <div class="header-container">
+  <h2 class="a">Hello,World! Ruby on rails !!</h2>
+  <p class="va">railsの練習のためのサイト</p>
+  </div>
+  </header>
+  <main>
+  <div class="main-container">
+    <%= yield %>
+  </div>
+  </main>
+  <footer>
+  <div class="footer-container">
+  <p class="copy">&copy;Yusn1230</p>
+  </body>
+</html>
